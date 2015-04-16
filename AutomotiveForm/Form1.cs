@@ -84,11 +84,6 @@ namespace AutomotiveForm
             this.Close();
         }
 
-        private void partsTextbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void clearButton_Click(object sender, EventArgs e)
         {
             total = 0m;
