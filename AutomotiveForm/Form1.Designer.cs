@@ -212,7 +212,6 @@
             this.partsTextbox.Name = "partsTextbox";
             this.partsTextbox.Size = new System.Drawing.Size(100, 26);
             this.partsTextbox.TabIndex = 1;
-            this.partsTextbox.TextChanged += new System.EventHandler(this.partsTextbox_TextChanged);
             // 
             // label1
             // 
