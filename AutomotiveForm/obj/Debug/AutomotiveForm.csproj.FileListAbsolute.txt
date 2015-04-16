@@ -1,1 +1,9 @@
 C:\Users\ki\Google Drive\Programming Fundamentals\AutomotiveForm\AutomotiveForm\bin\Debug\AutomotiveForm.exe.config
+C:\Users\ki\Google Drive\Programming Fundamentals\AutomotiveForm\AutomotiveForm\bin\Debug\AutomotiveForm.exe
+C:\Users\ki\Google Drive\Programming Fundamentals\AutomotiveForm\AutomotiveForm\bin\Debug\AutomotiveForm.pdb
+C:\Users\ki\Google Drive\Programming Fundamentals\AutomotiveForm\AutomotiveForm\obj\Debug\AutomotiveForm.csprojResolveAssemblyReference.cache
+C:\Users\ki\Google Drive\Programming Fundamentals\AutomotiveForm\AutomotiveForm\obj\Debug\AutomotiveForm.Form1.resources
+C:\Users\ki\Google Drive\Programming Fundamentals\AutomotiveForm\AutomotiveForm\obj\Debug\AutomotiveForm.Properties.Resources.resources
+C:\Users\ki\Google Drive\Programming Fundamentals\AutomotiveForm\AutomotiveForm\obj\Debug\AutomotiveForm.csproj.GenerateResource.Cache
+C:\Users\ki\Google Drive\Programming Fundamentals\AutomotiveForm\AutomotiveForm\obj\Debug\AutomotiveForm.exe
+C:\Users\ki\Google Drive\Programming Fundamentals\AutomotiveForm\AutomotiveForm\obj\Debug\AutomotiveForm.pdb
