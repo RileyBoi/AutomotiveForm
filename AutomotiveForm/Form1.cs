@@ -26,6 +26,8 @@ namespace AutomotiveForm
         decimal parts;
         decimal finaltax;
         decimal fees;
+        int laborCheck;
+        int partsCheck;
 
         public Form1()
         {
@@ -69,14 +71,27 @@ namespace AutomotiveForm
 
         private void totalButton_Click(object sender, EventArgs e)
         {
-            serviceslabor = decimal.Parse(laborTextbox.Text) + total;
-            parts = decimal.Parse(partsTextbox.Text);
-            finaltax = TAX * parts;
-            fees = total + parts + finaltax + serviceslabor;
-            serviceslaborOutputlabel.Text = serviceslabor.ToString("n2");
-            partsoutputLabel.Text = parts.ToString("n2");
-            taxOutputlabel.Text = finaltax.ToString("n2");
-            totalfeesoutputLabel.Text = fees.ToString("n2");
+            if (!int.TryParse(partsTextbox.Text, out partsCheck))
+            {
+                MessageBox.Show("Please enter a number for parts cost.");
+                return;
+            }
+            else if (!int.TryParse(laborTextbox.Text, out laborCheck))
+            {
+                MessageBox.Show("Please enter a number for labor cost.");
+                return;
+            }
+            else
+            {
+                serviceslabor = decimal.Parse(partsTextbox.Text) + total;
+                parts = decimal.Parse(laborTextbox.Text);
+                finaltax = TAX * parts;
+                fees = total + parts + finaltax + serviceslabor;
+                serviceslaborOutputlabel.Text = serviceslabor.ToString("n2");
+                partsoutputLabel.Text = parts.ToString("n2");
+                taxOutputlabel.Text = finaltax.ToString("n2");
+                totalfeesoutputLabel.Text = fees.ToString("n2");
+            }
         }
 
         private void exitButton_Click(object sender, EventArgs e)
@@ -98,6 +113,11 @@ namespace AutomotiveForm
             inspectionCheckbox.Checked = false;
             replacemufferCheckbox.Checked = false;
             tirerotationCheckbox.Checked = false;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
