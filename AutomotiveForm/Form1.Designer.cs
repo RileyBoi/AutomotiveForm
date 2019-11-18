@@ -66,7 +66,7 @@
             // 
             this.groupBox1.Controls.Add(this.lubejobCheckbox);
             this.groupBox1.Controls.Add(this.oilchangeCheckbox);
-            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 83);
@@ -100,7 +100,7 @@
             // 
             this.groupBox2.Controls.Add(this.transmissionflushCheckbox);
             this.groupBox2.Controls.Add(this.radiatorflushCheckbox);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(219, 13);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(219, 82);
@@ -135,7 +135,7 @@
             this.groupBox3.Controls.Add(this.tirerotationCheckbox);
             this.groupBox3.Controls.Add(this.replacemufferCheckbox);
             this.groupBox3.Controls.Add(this.inspectionCheckbox);
-            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(12, 104);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(200, 117);
@@ -182,7 +182,7 @@
             this.groupBox4.Controls.Add(this.label2);
             this.groupBox4.Controls.Add(this.partsTextbox);
             this.groupBox4.Controls.Add(this.label1);
-            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(219, 104);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(219, 117);
@@ -232,7 +232,7 @@
             this.groupBox5.Controls.Add(this.label5);
             this.groupBox5.Controls.Add(this.label4);
             this.groupBox5.Controls.Add(this.label3);
-            this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(12, 228);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(427, 163);
@@ -315,7 +315,7 @@
             // 
             // totalButton
             // 
-            this.totalButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalButton.Location = new System.Drawing.Point(31, 405);
             this.totalButton.Name = "totalButton";
             this.totalButton.Size = new System.Drawing.Size(125, 40);
@@ -326,7 +326,7 @@
             // 
             // clearButton
             // 
-            this.clearButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearButton.Location = new System.Drawing.Point(162, 405);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(125, 40);
@@ -337,7 +337,7 @@
             // 
             // exitButton
             // 
-            this.exitButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitButton.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitButton.Location = new System.Drawing.Point(294, 405);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(125, 40);
