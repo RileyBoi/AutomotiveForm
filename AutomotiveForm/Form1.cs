@@ -70,6 +70,7 @@ namespace AutomotiveForm
         }
 
         private void totalButton_Click(object sender, EventArgs e)
+        //Use if statement to prevent unhandled exception if textboxes are improperly filled
         {
             if (!int.TryParse(partsTextbox.Text, out partsCheck))
             {
